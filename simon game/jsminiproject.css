@@ -1,11 +1,11 @@
-*{
+* {
     text-align: center;
 }
-h2{
+h2 {
     color: red;
 }
-#box{
-    display:flex;
+#box {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
@@ -14,41 +14,29 @@ h2{
     background-color: antiquewhite;
     margin: auto;
 }
-.ibox{
+.ibox {
     height: 200px;
     width: 200px;
     background-color: aqua;
     border: 5px solid black;
     border-radius: 50px;
 }
-.yellow{
+.yellow {
     background-color: rgb(243, 239, 42);
 }
-.red{
+.red {
     background-color: rgb(232, 28, 28);
 }
-.purple{
+.purple {
     background-color: rgba(145, 40, 245, 0.581);
 }
-.green{
+.green {
     background-color: rgba(40, 239, 60, 0.912);
 }
-
-/* @keyframes flash {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
+.flash {
+    background-color: white;
 }
 
-.ibox.flash {
-    animation: flash 0.4s ease-in-out;
-} */
-
-.flash{
-    background-color: white ;
-    
-}
-
-.userflash{
+.userflash {
     background-color: rgb(122, 183, 204);
 }
